@@ -10,7 +10,7 @@ def batch_badge_creator(attendees)
   end
  end
  
- def batch_badge_creator(attendees)
+ def assign_room(attendees)
   attendees.map do |attendee|
    "Hello, my name is #{attendee}."
   end
