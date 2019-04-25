@@ -11,6 +11,6 @@ def batch_badge_creator(attendees)
  end
  
  def assign_room(attendees)
-  attendees
+  attendees(attendees).each_with_index { |item, index|
   end
  end
